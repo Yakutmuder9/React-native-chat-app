@@ -5,15 +5,16 @@ import { persistor, store } from './redux/store';
 import { PersistGate } from 'redux-persist/integration/react';
 import Loading from './components/LoadingComponent';
 
-export default function App() {
+const App = () => {
   return (
     <Provider store={store}>
-       <PersistGate loading={<Loading />} persistor={persistor}>
+      <PersistGate loading={<Loading />} persistor={persistor}>
         <NavigationContainer>
           <Main />
         </NavigationContainer>
-      </PersistGate> 
+      </PersistGate>
     </Provider>
   );
 }
 
+export default App;
