@@ -5,11 +5,11 @@ import SignIn from './auth/SignIn';
 import SignUp from './auth/SignUp';
 import { DrawerActions, getFocusedRouteNameFromRoute } from '@react-navigation/native';
 import { Text, View } from 'react-native';
-import {
-  createDrawerNavigator,
-  DrawerContentScrollView,
-  DrawerItemList
-} from '@react-navigation/drawer';
+// import {
+//   createDrawerNavigator,
+//   DrawerContentScrollView,
+//   DrawerItemList
+// } from '@react-navigation/drawer';
 
 const Drawer = createDrawerNavigator();
 // const Stack = createStackNavigator();
