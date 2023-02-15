@@ -1,11 +1,11 @@
-import { View } from 'react-native'
+import { Text, View } from "react-native";
 
 const ResetPass = () => {
   return (
     <View>
-      ResetPass
+      <Text>ResetPass</Text>
     </View>
-  )
-}
+  );
+};
 
-export default ResetPass
+export default ResetPass;
