@@ -3,7 +3,6 @@ import {
   StyleSheet,
   View,
   Text,
-  Button,
   TouchableOpacity,
   TextInput,
 } from "react-native";
@@ -45,6 +44,7 @@ const SignIn = ({ navigation }) => {
       navigation.navigate("signup");
     }
   };
+
   return (
     <View style={styles.container}>
       <Animatable.View animation="fadeIn" style={styles.signInContainer}>
@@ -81,6 +81,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
   signInContainer: {
+    width: "80%",
+    height: "65%",
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "#f2f2f2",

@@ -1,3 +1,4 @@
+import "expo-dev-client";
 import Main from "./screens/MainComponent";
 import { NavigationContainer } from "@react-navigation/native";
 import { Provider } from "react-redux";

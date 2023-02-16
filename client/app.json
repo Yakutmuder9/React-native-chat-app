@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "chatapp",
-    "slug": "chatapp",
+    "name": "Daily Routine Keeper",
+    "slug": "daily-routine-keeper",
+    "description": "All in one Daily trucker App!",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -24,10 +25,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.yakutmuder9.yamhub.dailyapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "90bd0d05-f2b5-437b-be9d-c737cad5a4f1"
+      }
+    },
+    "owner": "yakutmuder9"
   }
 }
