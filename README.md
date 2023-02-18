@@ -1,1 +1,1 @@
-# React-native-chat-app
+# React-native-Daily-app
