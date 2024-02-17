@@ -4,7 +4,7 @@ const Contacts
  = () => {
   return (
     <View>
-      Contacts
+      Contacts SCreen
 
     </View>
   )
