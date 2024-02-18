@@ -5,7 +5,6 @@ const Contacts
   return (
     <View>
       Contacts SCreen
-
     </View>
   )
 }
