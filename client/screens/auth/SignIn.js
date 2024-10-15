@@ -48,7 +48,7 @@ const SignIn = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Animatable.View animation="fadeIn" style={styles.signInContainer}>
-        <Text style={styles.title}>Sign In</Text>
+        <Text style={styles.title}>Login In</Text>
         <TextInput
           placeholder="Email"
           style={styles.input}
